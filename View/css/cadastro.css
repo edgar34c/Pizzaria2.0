@@ -1,0 +1,24 @@
+input{
+    width: 500px;
+    height: 50px;
+    margin-top: 20px;
+}
+
+.form-group{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 50px;
+}
+
+button{
+    background: #0066A2;
+	color: white;
+	border-style: outset;
+	border-color: #0066A2;
+	height: 50px;
+	width: 100px;
+	font: bold15px arial,sans-serif;
+	text-shadow: none;
+    margin-left: 200px;
+    margin-top: 20px;
+}
