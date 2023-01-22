@@ -8,16 +8,17 @@
     <link rel="stylesheet" href="css/index.css">
 </head>
 <body>
+   
     <header>
         <ol>
-            <li><a href="#"><img src="image/casa.png" id="icon_casa"></a></li>
-            <li><a href="#">Página inicial</a></li>
+            <li><img src="image/casa.png" id="icon_casa"></li>
+            <li><a href="<?php echo URL;?>home">Página inicial</a></li>
             <li><a href="#"> <img src="image/telefone.png" id="icon_tel"></a></li>
             <li><a href="#">Fale Conosco</a></li>
             <li><a href="#"> <img src="image/sobre.png" id="icon_sobre"></a></li>
             <li><a href="#">Sobre nós</a></li>
-            <li><a href="login.html"><img src="image/login.png" id="icon_login"></a></li>
-            <li><a href="login.html">Entrar</a></li>
+            <li><a href="$"><img src="image/login.png" id="icon_login"></a></li>
+            <li><a href="<?php echo URL;?>logar">Entrar</a></li>
         </ol>
 
         <div class="slider">

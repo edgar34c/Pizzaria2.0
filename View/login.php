@@ -8,19 +8,19 @@
     <link rel="stylesheet" href="css/login.css">
 </head>
 <body>
-    <form action="" method="post">
+    <form action="<?php echo URL;?>logar" method="post">
         <div class="form-group">
-            <input type="email" placeholder="E-mail">
+            <input type="email" placeholder="E-mail" name="email">
         </div>
         <div class="form-group">
-            <input type="password" name="Senha" id="input_pass" placeholder="Senha">
+            <input type="password" name="Senha" id="input_pass" placeholder="Senha" name="senha">
         </div>
         <div class="form-group">
             <button type="submit">Entrar</button>
         </div>
     </form>
 
-    <a href="cadastro.html" id="btn_cadastro"><button type="submit">Cadastre - se</button></a>
+    <a href="<?php echo URL;?>cadastro" id="btn_cadastro"><button type="submit">Cadastre - se</button></a>
 
 </body>
 </html>
