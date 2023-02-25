@@ -18,7 +18,7 @@
             <li><a href="#"> <img src="image/sobre.png" id="icon_sobre"></a></li>
             <li><a href="#">Sobre nós</a></li>
             <li><a href="$"><img src="image/login.png" id="icon_login"></a></li>
-            <li><a href="<?php echo URL;?>logar">Entrar</a></li>
+            <li><a href="<?php echo URL;?>abrirlogar">Entrar</a></li>
         </ol>
 
         <div class="slider">

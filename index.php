@@ -6,7 +6,7 @@ include_once 'Controller/userController.php';
  
 
 //minha url
-define('URL','http://localhost/pizza%202/Pizzaria2.0/');
+define('URL','http://localhost/Pizzaria2.0/Pizzaria2.0/');
 
 if(isset($_GET['url']))
 {
