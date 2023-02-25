@@ -6,17 +6,17 @@ include_once 'Controller/userController.php';
  
 
 //minha url
-define('URL','http://localhost/Pizzaria2.0/Pizzaria2.0/');
+define('URL','http://localhost/Pizzaria2.0/');
 
 if(isset($_GET['url']))
 {
     $url = explode('/', $_GET['url']);
     switch($url[0])
     {
-        case 'home':
-       $usu = new user();
-       $usu->home();
-       break;
+       case 'home':
+        $usu = new user();
+        $usu->home();
+        break;
 
        case 'abrirlogar' :
         $log = new user();
@@ -29,17 +29,14 @@ if(isset($_GET['url']))
          break;
 
          case 'enviar' : //VINDO FO FORMULARIO
-        $usu = new chibata();
-        $usu->cadastrar(); //FUNÇÃO Q ATRIBUIMOS
-        break;   
+            $usu = new chibata();
+            $usu->cadastrar(); //FUNÇÃO Q ATRIBUIMOS
+            break;   
        
-        case 'logar' :
-        $usu = new chibata();
-        $usu->logar();
-        break;
-
-
-
+        case 'fale':
+            $usu = new user();
+            $usu->fale();
+            break;
 
 
 

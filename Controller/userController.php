@@ -21,11 +21,7 @@
         </script>";
       }
 
-      public function logar(){
 
-       
-        
-      }
 
 
 

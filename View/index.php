@@ -14,7 +14,7 @@
             <li><img src="image/casa.png" id="icon_casa"></li>
             <li><a href="<?php echo URL;?>home">Página inicial</a></li>
             <li><a href="#"> <img src="image/telefone.png" id="icon_tel"></a></li>
-            <li><a href="#">Fale Conosco</a></li>
+            <li><a href="<?php echo URL;?>fale">Fale Conosco</a></li>
             <li><a href="#"> <img src="image/sobre.png" id="icon_sobre"></a></li>
             <li><a href="#">Sobre nós</a></li>
             <li><a href="$"><img src="image/login.png" id="icon_login"></a></li>
@@ -63,7 +63,6 @@
              </div>
         </div>
     </header>
-
 </body>
 </html>
 

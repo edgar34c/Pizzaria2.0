@@ -15,6 +15,10 @@ class User{
         include_once 'view/cadastro.php';
     }
 
+    public function fale(){
+        include_once 'view/fale.php';
+    }
+
 
 
 
