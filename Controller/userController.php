@@ -20,7 +20,23 @@
            window.location='".URL."logar';
         </script>";
       }
+          //Fale conosco
 
+       public function  conosco(){
+
+         $usu = new insere();
+
+         $usu->nomeusuario = $_POST['nome'];
+         $usu->email = $_POST['email'];
+         $usu->assunto = $_POST['assunto'];
+         $usu->conosco();
+
+         echo"<script>
+         alert('Dados Enviados Com Sucesso');
+         window.location='".URL."index';
+      </script>";
+
+       }  
 
 
 

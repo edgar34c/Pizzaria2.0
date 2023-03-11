@@ -32,19 +32,25 @@ public function cadastrar(){
      $cmd->bindParam(":senha", $this->senha);
      $cmd->execute();
 }
- public function logar()
- {
-    $con = Conexao::conectar();
-    $cmd = $con->prepare("SELECT * FROM usuario WHERE email == $this->email and senha == $this->senha");
+            
 
-    echo"<script>
-    alert('foi');
-    window.location='".URL."home';
- </script>";
-    
+        public function fale(){
+        
+            $con = Conexao::conectar();
 
-      
- }
+            $cmd = $con->prepare("INSERT INTO fale(Nome,Email,Assunto)  VALUES(:Nome, :Email, :Assunto)");
+
+            $cmd->bindParam(":Nome",$this->nome);
+            $cmd->bindParam(":Email",$this->email);
+            $cmd->bindParam(":Assunto",$this->assunto);
+            $cmd->execute();
+
+
+        }
+
+
+
+ 
 
 
 
