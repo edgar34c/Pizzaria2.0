@@ -10,10 +10,10 @@
 <body>
     <form action="<?php echo URL;?>logar" method="post">
         <div class="form-group">
-            <input type="email" placeholder="E-mail" name="email">
+            <input type="email" placeholder="E-mail" name="email" required>
         </div>
         <div class="form-group">
-            <input type="password" name="Senha" id="input_pass" placeholder="Senha" name="senha">
+            <input type="password" name="Senha" id="input_pass" placeholder="Senha" name="senha" required>
         </div>
         <div class="form-group">
             <button type="submit">Entrar</button>

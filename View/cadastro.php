@@ -9,17 +9,17 @@
 </head>
 <body>
     <form action="<?php echo URL;?>enviar" method="post">
-        <input type="text" placeholder="Nome" id="nome" name="nome">
+        <input type="text" placeholder="Nome" id="nome" name="nome" required>
         <br>
-        <input type="text" placeholder="Sobrenome" id="sobrenome" name="sobrenome">
+        <input type="text" placeholder="Sobrenome" id="sobrenome" name="sobrenome" required>
         <br>
-        <input type="email" placeholder="E-mail" id="email" name="email">
+        <input type="email" placeholder="E-mail" id="email" name="email" required>
         <br>
-        <input type="number" placeholder="Telefone" id="telefone" name="telefone">
+        <input type="tel" placeholder="Telefone" id="telefone" name="telefone" required>
         <br>
-        <input type="text" placeholder="Enredeço" id="endere" name="endere">
+        <input type="text" placeholder="Enredeço" id="endere" name="endere" required>
         <br>
-        <input type="password" placeholder="Senha" id="senha" name="senha">
+        <input type="password" placeholder="Senha" id="senha" name="senha" required>
         <br>
         <button>Enviar</button>
     </form>
