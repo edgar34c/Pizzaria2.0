@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pagina Inicial</title>
+    <title>Fale conosco</title>
     <link rel="stylesheet" href="css/fale.css">
 </head>
 <body>
@@ -12,11 +12,11 @@
     <form action="" method="post">
         <div class="center">
             <ol>
-                <li><input type="text" placeholder="Nome" require></li>
+                <li><input type="text" placeholder="Nome" required></li>
                 <br>
-                <li><input type="email" name="" id="" placeholder="E-mail" require></li>
+                <li><input type="email" name="" id="" placeholder="E-mail" required></li>
                 <br>
-                <li><textarea name="message" rows="10" cols="30" placeholder="Digite aqui sua mensagem" require></textarea></li>
+                <li><textarea name="message" rows="10" cols="30" placeholder="Digite aqui sua mensagem" required></textarea></li>
                 <br>
             </ol>
         </div>

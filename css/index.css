@@ -46,6 +46,7 @@ a{
     font-size: larger;
 }
 
+
 .slider{
     margin: 0 auto;
     width: 800px;
@@ -72,6 +73,7 @@ a{
 .slide img{
     width: 1000px;
 }
+
 .manual-navigation{
     position: absolute;
     width: 800px;
