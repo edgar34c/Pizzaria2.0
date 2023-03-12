@@ -9,14 +9,14 @@
 </head>
 <body>
     <h1>Fale conosco</h1>
-    <form action="" method="post">
+    <form action="fales" method="post">
         <div class="center">
             <ol>
-                <li><input type="text" placeholder="Nome" required></li>
+                <li><input type="text" placeholder="Nome" name="nome" required></li>
                 <br>
-                <li><input type="email" name="" id="" placeholder="E-mail" required></li>
+                <li><input type="email" name="email" id="email" placeholder="E-mail"  required></li>
                 <br>
-                <li><textarea name="message" rows="10" cols="30" placeholder="Digite aqui sua mensagem" required></textarea></li>
+                <li><textarea name="assunto" rows="10" cols="30" placeholder="Digite aqui sua mensagem" required></textarea></li>
                 <br>
             </ol>
         </div>

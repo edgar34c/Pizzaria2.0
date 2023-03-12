@@ -8,6 +8,11 @@ class insere
     public $telefone;
     public $endere;
     public $senha;
+    //Etapa 2
+    public $nomeusuario;
+    public $emailusuario;
+    public $assunto;
+
 
 
 public function __construct()
@@ -38,11 +43,11 @@ public function cadastrar(){
         
             $con = Conexao::conectar();
 
-            $cmd = $con->prepare("INSERT INTO fale(Nome,Email,Assunto)  VALUES(:Nome, :Email, :Assunto)");
+            $cmd = $con->prepare("INSERT INTO fale(nome,email,assunto)  VALUES(:nome, :email, :assunto)");
 
-            $cmd->bindParam(":Nome",$this->nome);
-            $cmd->bindParam(":Email",$this->email);
-            $cmd->bindParam(":Assunto",$this->assunto);
+            $cmd->bindParam(":nome",$this->nomeusuario);
+            $cmd->bindParam(":email",$this->emailusuario);
+            $cmd->bindParam(":assunto",$this->assunto);
             $cmd->execute();
 
 

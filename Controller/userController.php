@@ -22,18 +22,18 @@
       }
           //Fale conosco
 
-       public function  conosco(){
+       public function fale(){
 
          $usu = new insere();
 
          $usu->nomeusuario = $_POST['nome'];
-         $usu->email = $_POST['email'];
+         $usu->emailusuario = $_POST['email'];
          $usu->assunto = $_POST['assunto'];
-         $usu->conosco();
+         $usu->fale();
 
          echo"<script>
          alert('Dados Enviados Com Sucesso');
-         window.location='".URL."index';
+         window.location='".URL."home';
       </script>";
 
        }  

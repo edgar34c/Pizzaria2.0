@@ -38,6 +38,11 @@ if(isset($_GET['url']))
             $usu->fale();
             break;
 
+        case 'fales':
+            $usu = new chibata();
+            $usu->fale();
+            break;
+
 
 
     }
