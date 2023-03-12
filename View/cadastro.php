@@ -8,20 +8,31 @@
     <link rel="stylesheet" href="css/cadastro.css">
 </head>
 <body>
+    <h1>Cadastro</h1>
+
     <form action="<?php echo URL;?>enviar" method="post">
-        <input type="text" placeholder="Nome" id="nome" name="nome" required>
-        <br>
-        <input type="text" placeholder="Sobrenome" id="sobrenome" name="sobrenome" required>
-        <br>
-        <input type="email" placeholder="E-mail" id="email" name="email" required>
-        <br>
-        <input type="tel" placeholder="Telefone" id="telefone" name="telefone" required>
-        <br>
-        <input type="text" placeholder="Enredeço" id="endere" name="endere" required>
-        <br>
-        <input type="password" placeholder="Senha" id="senha" name="senha" required>
-        <br>
-        <button>Enviar</button>
+        <div class="center">
+            <input type="text" placeholder="Nome" id="nome" name="nome" required>
+        </div>
+        <div class="center">
+            <input type="text" placeholder="Sobrenome" id="sobrenome" name="sobrenome" required>
+        </div>
+        <div class="center">
+            <input type="email" placeholder="E-mail" name="email" required>
+        </div>
+        <div class="center">
+            <input type="tel" placeholder="Telefone" id="telefone" name="telefone" required>
+        </div>
+        <div class="center">
+            <input type="text" placeholder="Enredeço" id="endere" name="endere" required>
+        </div>
+        <div class="center">
+            <input type="password" placeholder="Senha" id="senha" name="senha" required>
+        </div>
+        
+        <div class="btn_center">
+            <button>Enviar</button>
+        </div>
     </form>
 </body>
 </html>

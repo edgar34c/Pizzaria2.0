@@ -1,13 +1,21 @@
+body{
+    background-image: url("https://expressodelivery.com.br/blog/wp-content/uploads/2015/10/forno-a-lenha-pizzaria-810x420.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1{
+    color: white;
+    text-shadow: black 2,2,2;
+    text-align: center;
+    margin-top: 100px;
+}
+
+
 input{
     width: 500px;
     height: 50px;
     margin-top: 20px;
-}
-
-.form-group{
-    margin-top: 20px;
-    margin-bottom: 20px;
-    margin-left: 50px;
 }
 
 button{
@@ -19,6 +27,18 @@ button{
 	width: 100px;
 	font: bold15px arial,sans-serif;
 	text-shadow: none;
-    margin-left: 200px;
     margin-top: 20px;
+    border-radius: 5px;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn_center{
+    display: flex;
+    justify-content: center;
+    align-itens: center;
 }
