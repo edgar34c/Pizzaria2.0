@@ -2,42 +2,44 @@ body{
     background-image: url("https://expressodelivery.com.br/blog/wp-content/uploads/2015/10/forno-a-lenha-pizzaria-810x420.png");
     background-repeat: no-repeat;
     background-size: cover;
+    opacity: 0.9;
 }
 
 header{
-    margin-top: 100px
-    
+    margin-top: 100px;
 }
 
 #icon_casa{
     width: 60px;
     height: 60px;
-    margin-left: 400px;
 }
 
 #icon_tel{
     width: 60px;
     height: 60px;
-    margin-left: 60px;
 }
 
 #icon_sobre{
     width: 60px;
     height: 60px;
-    margin-left: 60px;
 }
 
 #icon_login{
     width: 60px;
     height: 60px;
-    margin-left: 1500px;
-    margin-top: -200px;
 }
 
 li{
     display: inline-block;
     list-style: none;
-    margin-left: 10px;
+    padding: 10px;
+    background-color: gray;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+    align-itens: center;
 }
 
 a{
@@ -59,7 +61,6 @@ a{
     width: 400%;
     height: 400px;
     display: flex;
-
     flex-wrap: wrap;
 
 }
@@ -71,7 +72,7 @@ a{
     position: relative;
 }
 .slide img{
-    width: 1000px;
+    width: 800px;
 }
 
 .manual-navigation{
@@ -137,3 +138,26 @@ a{
 #radio4:checked ~ .navigation-auto .auto-btn4{
     background-color: white;
 }
+
+.grid-pizza{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 50px;
+}
+
+.img_pizzas{
+    width: 450px;
+    height: 450px;
+}
+
+figcaption{
+    color: black;
+    font-size: larger;
+    text-align: center;
+}
+
+figure{
+    background-color: gray;
+    border-radius: 5px;
+}
+
