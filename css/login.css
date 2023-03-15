@@ -41,3 +41,8 @@ h1{
     color: white;
     text-shadow: black 2,2,2;
 }
+
+.fundo{
+    background-color: gray;
+    border-radius: 10px;
+}
